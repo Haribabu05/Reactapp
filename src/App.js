@@ -1,25 +1,24 @@
+//importing component from a js file
+import Content from './contents.js';
+import Header from './header.js'
 import logo from './logo.svg';
-import './App.css';
-
+import Subheader from './footer.js';
+import './App.css'
+import './index.css'
 function App() {
+ try{ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='App'>
+    <Header />
+    <Subheader />
+   <Content />
+  </div>
   );
+}
+catch(err)
+{
+  console.error(err)
+}
 }
 
 export default App;
