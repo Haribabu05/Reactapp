@@ -23,15 +23,19 @@ const Subheader = () => {
   const change = () => {
     settext("text is changed")
   }
+
+  const [items,setItems] = useState([
+    {
+      id:1,
+      checked: true,
+      item: "Practice coding"
+    }
+  ])
+
   return (
-    <div className='content'>
-      <p>{text}</p>
-     
-      <button onClick={change} >Subscribe</button>
-      <p onClick={Add}>+</p>
-      <span>{count}</span>
-      <p onClick={Sub}>-</p>
-    </div>
+  <main>
+
+  </main>
   )
 }
 
