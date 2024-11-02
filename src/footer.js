@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Content = () => {
+const Footer = () => {
   
     const date = new Date();
   
@@ -15,4 +15,4 @@ const Content = () => {
       )
 };
 
-export default Content;
+export default Footer;

@@ -2,7 +2,7 @@
 import Content from './contents.js';
 import Header from './header.js'
 import logo from './logo.svg';
-import Subheader from './footer.js';
+import Footer from './footer.js';
 import './App.css'
 import './index.css'
 function App() {
@@ -10,8 +10,8 @@ function App() {
   return (
     <div className='App'>
     <Header />
-    <Subheader />
    <Content />
+   <Footer />
   </div>
   );
 }
