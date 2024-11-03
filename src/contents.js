@@ -5,19 +5,19 @@ import { FaRegTrashAlt } from "react-icons/fa";
   //for passing parameter to fucntion use () =>
 
 const Content = () => {
-//   const [count,setcount] = useState(99)
-//   const Add = () =>{
-//     setcount((paracount) => {return paracount + 1})
-//     setcount((count) => {return count + 1})
-//     setcount((count) => {return count + 1})
-//   }
-//   const Sub = () => {
-//     setcount((paracount) => {return paracount - 1})
-//   }
-//   const [text,settext] = useState("text")
-//   const change = () => {
-//     settext("text is changed")
-//   }
+  const [count,setcount] = useState(99)
+  const Add = () =>{
+    setcount((paracount) => {return paracount + 1})
+    setcount((count) => {return count + 1})
+    setcount((count) => {return count + 1})
+  }
+  const Sub = () => {
+    setcount((paracount) => {return paracount - 1})
+  }
+  const [text,settext] = useState("text")
+  const change = () => {
+    settext("text is changed")
+  }
 
   //to do list using higher order map function useState , HTML : ul , li tags
   
