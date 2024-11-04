@@ -9,7 +9,7 @@ function App() {
  try{ 
   return (
     <div className='App'>
-    <Header />
+    <Header title="Haribabu" />
    <Content />
    <Footer />
   </div>
